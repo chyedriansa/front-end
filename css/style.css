@@ -10,6 +10,10 @@
     box-sizing: inherit;
 }
 
+.icon{
+    background-size: cover;
+}
+
 html{
     font-size: 62.5%;
 }
@@ -20,7 +24,7 @@ body {
     font-weight: 400; 
     /* font-size: 16px; */
     line-height: 1.7;
-    color:  #777;
+    color:  #000;
     background-color: #777;
     box-sizing: border-box;
 
@@ -47,7 +51,7 @@ body {
 }
 
 .header__logo{
-    height:100px;
+    height: 75px;
     animation: moveInRightLogo 1s ease-out;
     animation-duration: 2s;
 }
@@ -77,8 +81,9 @@ body {
 .heading-primary--main{
     display: block;
     font-size: 60px;
-    font-weight: 700; 
-    letter-spacing: 16px;
+    font-weight: 700;
+    font-family: arial;
+    letter-spacing: 16.7px;
     animation-name: moveInLeft;
     animation-duration: 2s;
     animation-delay: 0.5s;
@@ -95,6 +100,37 @@ body {
     animation-duration: 2s;
     animation-delay: 0.5s;
     animation-timing-function: ease-out;
+}
+
+.header__text-box--main{
+    position: relative;
+    text-align: justify;
+    left: 0%;
+}
+
+.heading-secondary{
+    font-family: system-ui;
+    font-size: 35px;
+    position: absolute;
+    top: 100%;
+    left: -47%;
+    animation: moveInRightLogo 1s ease-out;
+    animation-duration: 2s;
+}
+
+.paragraph{
+    position: absolute;
+    font-weight: bold;
+    width: 500px;
+    /* display: block; */
+    font-family: system-ui;
+    font-size: 15px;
+    text-align: right;;
+    top: 120%;
+    left: -48.5%;
+    letter-spacing: 1px;  
+    animation: moveInRightLogo 1s ease-out;
+    animation-duration: 2s;
 }
 
 @keyframes moveInLeft{
@@ -162,6 +198,7 @@ body {
 
 .btn:link,
 .btn:visited {
+    top: 100%;
     animation: moveInTopButton 2s ease-out;
     text-transform: uppercase;
     font-weight: bold;
