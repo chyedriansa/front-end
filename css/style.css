@@ -27,7 +27,7 @@ body {
 .header {
   height: 95vh;
   position: relative;
-  background-image: linear-gradient(to right bottom, black, rgba(255, 255, 255, 0.1), rgba(0, 255, 251, 0.5), rgba(0, 106, 255, 0.5)), url(../img/Database_Future_Technology.gif);
+  background-image: linear-gradient(to right bottom, black, rgba(255, 255, 255, 0.1), rgba(0, 255, 251, 0.5), rgba(0, 106, 255, 0.5)), url(../source/Database_Future_Technology.gif);
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }

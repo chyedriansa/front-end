@@ -18,7 +18,7 @@
     padding: 30px;
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 16px; 
+    ont-size: 16px;
     line-height: 1.7;
     color: #000;
     background-color: #777;
@@ -165,7 +165,7 @@
     border-radius: 100px;
     transition: all .2s;
     position: relative; }
-
+  
   .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
@@ -199,16 +199,14 @@
   
   .btn--animated {
     animation: moveInBottom .2s ease-out .3s;
-    animation-fill-mode: backwards; 
-    background-color: #fff;
-    }
-    
-    .btn:hover::after {
-        transform: scaleX(1.4) scaleY(1.6);
-        opacity: 0;
-    }
-    
-    .btn--animated {
-        animation: moveInBottom .2s ease-out .3s;
-        animation-fill-mode: backwards;
-    }
+    animation-fill-mode: backwards;
+    background-color: #fff; }
+  
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+  
+  .btn--animated {
+    animation: moveInBottom .2s ease-out .3s;
+    animation-fill-mode: backwards; }
+  
